@@ -830,15 +830,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Embryonic Virtual Heart Model created by Marissa Hight.
+  m_Text: 'Embryonic Virtual Heart Model created by Marissa Hight, MS.
 
 
     Application
-    created by Katherine Gustilo and Marissa Hight.
+    created by Katherine Gustilo, MS Candidate and Marissa Hight, MS.
 
 
-    Project Director: Dr. Lisa
-    M.J. Lee'
+    Project
+    Director: Dr. Lisa M.J. Lee, Ph.D'
 --- !u!222 &1984151634
 CanvasRenderer:
   m_ObjectHideFlags: 0
