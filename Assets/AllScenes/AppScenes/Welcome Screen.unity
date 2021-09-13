@@ -148,7 +148,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147303616}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 4.109245, y: 4.109245, z: 4.109245}
   m_Children: []
@@ -834,11 +834,11 @@ MonoBehaviour:
 
 
     Application
-    created by Katherine Gustilo, MS Candidate and Marissa Hight, MS.
+    created by Katherine Gustilo, MS Candidate.
 
 
-    Project
-    Director: Dr. Lisa M.J. Lee, Ph.D'
+    Project Director: Dr. Lisa
+    M.J. Lee, Ph.D'
 --- !u!222 &1984151634
 CanvasRenderer:
   m_ObjectHideFlags: 0

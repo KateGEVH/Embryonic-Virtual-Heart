@@ -22,7 +22,7 @@ public class VerticalSlideScript : MonoBehaviour
         Debug.Log(yslidervalue);
         if (yslidervalue > ypreviousslidervalue)
         {
-            transform.Rotate(new Vector3(-1, 0, 0), 5);
+            transform.Rotate(new Vector3(-1, 0, 0), 8);
             Debug.Log("Rotate up because slider value has increased");
             ypreviousslidervalue = yslidervalue;
             Debug.Log("previousslidervalue is now" + ypreviousslidervalue);
@@ -30,7 +30,7 @@ public class VerticalSlideScript : MonoBehaviour
 
         else if (yslidervalue < ypreviousslidervalue)
         {
-            transform.Rotate(new Vector3(1, 0, 0), 5);
+            transform.Rotate(new Vector3(1, 0, 0), 8);
             Debug.Log("Rotate down because slider value has decreased");
             ypreviousslidervalue = yslidervalue;
             Debug.Log("previousslidervalue is now" + ypreviousslidervalue);

@@ -27,7 +27,7 @@ public class HorizontalSlideScript : MonoBehaviour
             Debug.Log(xslidervalue);
         if (xslidervalue > xpreviousslidervalue)
         {
-            transform.Rotate(new Vector3(0, -1, 0), 5);
+            transform.Rotate(new Vector3(0, -1, 0), 8);
             Debug.Log("Rotate to the right because slider value has increased");
             xpreviousslidervalue = xslidervalue;
             Debug.Log("previousslidervalue is now" + xpreviousslidervalue);
@@ -35,7 +35,7 @@ public class HorizontalSlideScript : MonoBehaviour
 
         else if (xslidervalue < xpreviousslidervalue)
         {
-            transform.Rotate(new Vector3(0, 1, 0), 5);
+            transform.Rotate(new Vector3(0, 1, 0), 8);
             Debug.Log("Rotate to the left because slider value has decreased");
             xpreviousslidervalue = xslidervalue;
             Debug.Log("previousslidervalue is now" + xpreviousslidervalue);

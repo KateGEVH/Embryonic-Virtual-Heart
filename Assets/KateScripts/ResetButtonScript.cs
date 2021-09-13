@@ -20,7 +20,7 @@ public class ResetButtonScript : MonoBehaviour
 
     public void Resetfxn()
     {
-        gameObject.transform.SetPositionAndRotation(new Vector3(0, 0, -318), Quaternion.Euler(new Vector3(0, 0, 0)));
+        gameObject.transform.SetPositionAndRotation(new Vector3(0, 125, -275), Quaternion.Euler(new Vector3(0, 0, 0)));
         //-318 is so that the empty parent is far enough back that the model doesn't pop out past the canvas
         yslider.value = 0;
         xslider.value = 0;
