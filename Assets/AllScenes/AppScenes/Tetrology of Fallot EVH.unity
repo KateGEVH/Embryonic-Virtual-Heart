@@ -896,7 +896,7 @@ GameObject:
   - component: {fileID: 367565111}
   - component: {fileID: 367565110}
   m_Layer: 5
-  m_Name: OverarchingAortaPopup
+  m_Name: OverridingAortaPopup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4516,7 +4516,7 @@ GameObject:
   - component: {fileID: 1522405350}
   - component: {fileID: 1522405349}
   m_Layer: 5
-  m_Name: CloseOverarchingAortaTextButton
+  m_Name: CloseOverridingAortaTextButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5674,7 +5674,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Overarching Aorta
+  m_Text: Overriding Aorta
 --- !u!222 &1905718295
 CanvasRenderer:
   m_ObjectHideFlags: 0
